@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para vos ❤️</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/ask.css">
+</head>
+<body>
+    <section class="quiz">
+  <h2>Mini cuestionario 💭</h2>
+  <p class="pregunta">
+    ¿Cuál es mi mayor sueño? (Mas alla de una vida con vos jijiji)
+  </p>
+
+  <div class="opciones">
+  <button onclick="respuestaIncorrecta()">Abrir un restaurante</button>
+  <button onclick="respuestaIncorrecta()">Ser un jedi</button>
+  <button onclick="respuestaCorrecta()">Hacer una película</button>
+  <button onclick="respuestaIncorrecta()">Tener mi propia marca de ropa</button>
+</div>
+
+  
+
+</section>
+<script>
+  function respuestaCorrecta() {
+    window.location.href = "right.html";
+  }
+
+  function respuestaIncorrecta() {
+    const resultado = document.getElementById("resultado");
+    resultado.innerText = "😅 Casi… pero pensalo un poquito más.";
+  }
+</script>
+</body>
+</html>

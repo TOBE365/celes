@@ -1,0 +1,38 @@
+.quiz {
+  min-height: 100vh;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pregunta {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.opciones {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.opciones button {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: white;
+  color: #ff6f91;
+  transition: transform 0.2s ease;
+}
+
+.opciones button:hover {
+  transform: scale(1.05);
+}
+
+.resultado {
+  margin-top: 30px;
+  font-size: 20px;
+}

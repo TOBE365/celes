@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 SIIII 💖</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1>💖 SIIII 💖</h1>
+  <p>Sabía que ibas a decir que sí 😍</p>
+  <p>Felices 3 meses, Celes💖</p>
+  <p>TE AMO MUCHO, BEBE💖</p>
+
+  
+  <div class="tenor-gif-embed"
+       data-postid="15469917"
+       data-share-method="host"
+       data-aspect-ratio="0.859375"
+       data-width=200px>
+    <a href="https://tenor.com/view/pokemon-dancing-dance-move-cute-gif-15469917">
+      Pokemon Dancing Sticker
+    </a>
+  </div>
+
+  <script async src="https://tenor.com/embed.js"></script>
+
+  
+  <script>
+    function crearCorazon() {
+      const c = document.createElement("div");
+      c.className = "corazon";
+      c.innerText = "❤️";
+      c.style.left = Math.random() * 100 + "vw";
+      c.style.animationDuration = (Math.random() * 3 + 3) + "s";
+      document.body.appendChild(c);
+
+      setTimeout(() => {
+        c.remove();
+      }, 6000);
+    }
+
+    setInterval(crearCorazon, 300);
+  </script>
+
+</body>
+</html>

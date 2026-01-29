@@ -1,0 +1,37 @@
+.bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+.texto {
+  width: 45%;
+}
+
+
+.fotos {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.foto {
+  width: 180px;
+  border: 12px solid white; 
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+
+.rot1 { transform: rotate(-6deg); }
+.rot2 { transform: rotate(5deg); }
+
+.foto:hover {
+  transform: scale(1.1) rotate(0deg);
+}
