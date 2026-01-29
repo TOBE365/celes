@@ -15,6 +15,7 @@
   width: 45%;
   display: flex;
   justify-content: center;
+  
   gap: 20px;
 }
 
@@ -35,3 +36,11 @@
 .foto:hover {
   transform: scale(1.1) rotate(0deg);
 }
+
+.tenor-gif-embed {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+}
+
